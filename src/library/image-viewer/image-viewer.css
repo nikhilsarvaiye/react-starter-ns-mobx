@@ -1,0 +1,16 @@
+.image-carousel .slick-prev,
+.image-carousel .slick-prev:hover,
+.image-carousel .slick-next,
+.image-carousel .slick-next:hover {
+    color: #000;
+    font-size: 16px;
+    margin: 0 -10px;
+}
+.image-viewer-modal .ant-modal-close,
+.image-viewer-modal .ant-modal-close:hover {
+    color: #000;
+}
+.image-carousel .slick-dots li button,
+.image-carousel .slick-dots li button:hover {
+    background: #000 !important;
+}

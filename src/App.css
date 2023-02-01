@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+body {
+  background-color: #f9fafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* antd Table */
+.ant-table-wrapper .ant-table-tbody>tr>td {
+  padding: 1vh 10px;
+}
+
+.ant-table-wrapper .ant-table-thead>tr>th {
+  background: transparent;
+}
+
+.ant-input-number.plain-text {
+  border: none;
+}
+
+.ant-input-number.plain-text.strong input {
+  font-weight: 600;
+}
+
+/* Sider Menu */
+.ant-menu a {
+  color: white !important;
+}
+
+.ant-menu a .ant-menu-item {
+  padding-left: 24px !important;
+}
+
+.ant-menu .active .ant-menu-item,
+.ant-menu .active .ant-menu-item:hover {
+  background-color: rgb(214 128 31) !important;
+  padding-left: 24px;
+}
+/* Sider Menu */
+
+/* Inputs */
+/* End Inputs */
